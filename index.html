@@ -1,0 +1,627 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png.svg">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-area py-[30px]">
+            <div class="container mx-auto pl-4 pr-4">
+                <div class="header-wrap flex justify-between items-center gap-6">
+                    <div class="logo">
+                        <img src="assets/images/logo/logo.svg" alt="">
+                    </div>
+                    <nav>
+                        <ul class="inline-flex gap-10 list-none">
+                            <li><a href="#" class="font-bold text-primary">Home</a></li>
+                            <li><a href="#" class="text-[#424247]">About</a></li>
+                            <li><a href="#" class="text-[#424247]">Destination</a></li>
+                            <li><a href="#" classJ="text-[#424247]">Search</a></li>
+                        </ul>
+                    </nav>
+                    <div class="sidebar-icon inline-flex gap-6 items-center">
+                        <div><i class="fas fa-search"></i></div>
+                        <button type="button"
+                            class="btn btn-active btn-primary bg-primary btn-opacity-outline border-0 font-bold text-white h-[56px]">Bus<span><svg
+                                    width="22" height="16" viewBox="0 0 22 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3 13C3 13.5304 3.21071 14.0391 3.58579 14.4142C3.96086 14.7893 4.46957 15 5 15C5.53043 15 6.03914 14.7893 6.41421 14.4142C6.78929 14.0391 7 13.5304 7 13M3 13C3 12.4696 3.21071 11.9609 3.58579 11.5858C3.96086 11.2107 4.46957 11 5 11C5.53043 11 6.03914 11.2107 6.41421 11.5858C6.78929 11.9609 7 12.4696 7 13M3 13H1V2C1 1.73478 1.10536 1.48043 1.29289 1.29289C1.48043 1.10536 1.73478 1 2 1H16C17.3261 1 18.5979 1.7375 19.5355 3.05025C20.4732 4.36301 21 6.14348 21 8M7 13H15M15 13C15 13.5304 15.2107 14.0391 15.5858 14.4142C15.9609 14.7893 16.4696 15 17 15C17.5304 15 18.0391 14.7893 18.4142 14.4142C18.7893 14.0391 19 13.5304 19 13M15 13C15 12.4696 15.2107 11.9609 15.5858 11.5858C15.9609 11.2107 16.4696 11 17 11C17.5304 11 18.0391 11.2107 18.4142 11.5858C18.7893 11.9609 19 12.4696 19 13M19 13H21V8M21 8H16.5L15 1M1 6H16M6 1V6M11 1V6"
+                                        stroke="#1DD100" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero area start here -->
+        <section class="container mx-auto pl-4 pr-4">
+            <div class="banner-item relative">
+                <div class="relative w-full h-[550px] rounded-[16px] relative">
+                    <img src="assets/images/banner/banner-bg.png" class="w-full h-full rounded-[16px]">
+                </div>
+                <div class="banner-contents absolute top-16 left-2/4 translate-x-[-50%] max-w-[760px text-center">
+                    <h1 class="font-['Raleway'] text-[64px] font-extrabold text-white mb-4">End-to-End Travel with<span
+                            class="text-primary">P Paribahan</span></h1>
+                    <p class="text-18px] text-white mb-7 ">Yes, you can run unit tests and view the results directly
+                        within the app. The integrated testing features allow for a streamlined .</p>
+                    <a class="btn-primary btn-fill" href="#ticketSellSetion">Buy Tickets</a>
+                </div>
+            </div>
+        </section>
+        <!-- Hero area end here -->
+
+        <!-- why choose us start -->
+        <section class="why-choose-us-section -mt-16 relative z-10">
+            <div class="container mx-auto pl-4 pr-4">
+                <div class="flex justify-center space-x-6">
+                    <!-- Card 1 -->
+                    <div
+                        class="flex items-center gap-4 justify-center bg-white border-b-[3px] border-[#1DD100] rounded-3xl py-7 px-8">
+                        <div class="text-green-500 text-4xl mb-2">
+                            <span>
+                                <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.3333 56V53.3333C21.3333 51.9188 21.8952 50.5623 22.8954 49.5621C23.8956 48.5619 25.2522 48 26.6667 48H37.3333C38.7478 48 40.1044 48.5619 41.1046 49.5621C42.1048 50.5623 42.6667 51.9188 42.6667 53.3333V56M45.3333 26.6667H50.6667C52.0812 26.6667 53.4377 27.2286 54.4379 28.2288C55.4381 29.229 56 30.5855 56 32V34.6667M8 34.6667V32C8 30.5855 8.5619 29.229 9.5621 28.2288C10.5623 27.2286 11.9188 26.6667 13.3333 26.6667H18.6667M26.6667 34.6667C26.6667 36.0812 27.2286 37.4377 28.2288 38.4379C29.229 39.4381 30.5855 40 32 40C33.4145 40 34.771 39.4381 35.7712 38.4379C36.7714 37.4377 37.3333 36.0812 37.3333 34.6667C37.3333 33.2522 36.7714 31.8956 35.7712 30.8954C34.771 29.8952 33.4145 29.3333 32 29.3333C30.5855 29.3333 29.229 29.8952 28.2288 30.8954C27.2286 31.8956 26.6667 33.2522 26.6667 34.6667ZM40 13.3333C40 14.7478 40.5619 16.1044 41.5621 17.1046C42.5623 18.1048 43.9188 18.6667 45.3333 18.6667C46.7478 18.6667 48.1044 18.1048 49.1046 17.1046C50.1048 16.1044 50.6667 14.7478 50.6667 13.3333C50.6667 11.9188 50.1048 10.5623 49.1046 9.5621C48.1044 8.5619 46.7478 8 45.3333 8C43.9188 8 42.5623 8.5619 41.5621 9.5621C40.5619 10.5623 40 11.9188 40 13.3333ZM13.3333 13.3333C13.3333 14.7478 13.8952 16.1044 14.8954 17.1046C15.8956 18.1048 17.2522 18.6667 18.6667 18.6667C20.0812 18.6667 21.4377 18.1048 22.4379 17.1046C23.4381 16.1044 24 14.7478 24 13.3333C24 11.9188 23.4381 10.5623 22.4379 9.5621C21.4377 8.5619 20.0812 8 18.6667 8C17.2522 8 15.8956 8.5619 14.8954 9.5621C13.8952 10.5623 13.3333 11.9188 13.3333 13.3333Z"
+                                        stroke="#1DD100" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="content">
+                            <h2 class="text-[32px] font-bold text-gray-900 mb-2">500K+</h2>
+                            <p class="text-gray-500">Registered users</p>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div
+                        class="flex items-center gap-4 justify-center bg-white border-b-[3px] border-[#1DD100] rounded-3xl py-7 px-8">
+                        <div class="text-green-500 text-4xl mb-2">
+                            <span>
+                                <svg width="52" height="42" viewBox="0 0 52 42" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M34 2.33337V7.66671M34 18.3334V23.6667M34 34.3334V39.6667M7.33333 2.33337H44.6667C46.0812 2.33337 47.4377 2.89528 48.4379 3.89547C49.4381 4.89566 50 6.25222 50 7.66671V15.6667C48.5855 15.6667 47.229 16.2286 46.2288 17.2288C45.2286 18.229 44.6667 19.5856 44.6667 21C44.6667 22.4145 45.2286 23.7711 46.2288 24.7713C47.229 25.7715 48.5855 26.3334 50 26.3334V34.3334C50 35.7479 49.4381 37.1044 48.4379 38.1046C47.4377 39.1048 46.0812 39.6667 44.6667 39.6667H7.33333C5.91885 39.6667 4.56229 39.1048 3.5621 38.1046C2.5619 37.1044 2 35.7479 2 34.3334V26.3334C3.41449 26.3334 4.77104 25.7715 5.77124 24.7713C6.77143 23.7711 7.33333 22.4145 7.33333 21C7.33333 19.5856 6.77143 18.229 5.77124 17.2288C4.77104 16.2286 3.41449 15.6667 2 15.6667V7.66671C2 6.25222 2.5619 4.89566 3.5621 3.89547C4.56229 2.89528 5.91885 2.33337 7.33333 2.33337Z"
+                                        stroke="#1DD100" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="content">
+                            <h2 class="text-[32px] font-bold text-gray-900 mb-2">1.7 lacks</h2>
+                            <p class="text-gray-500">Tickets sold</p>
+                        </div>
+                    </div>
+                    <!-- Card 1 -->
+                    <div
+                        class="flex items-center gap-4 justify-center bg-white border-b-[3px] border-[#1DD100] rounded-3xl py-7 px-8">
+                        <div class="text-green-500 text-4xl mb-2">
+                            <span>
+                                <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M42.6667 45.3333C42.6667 46.7478 43.2286 48.1044 44.2288 49.1046C45.229 50.1048 46.5855 50.6667 48 50.6667C49.4145 50.6667 50.771 50.1048 51.7712 49.1046C52.7714 48.1044 53.3333 46.7478 53.3333 45.3333M42.6667 45.3333C42.6667 43.9188 43.2286 42.5623 44.2288 41.5621C45.229 40.5619 46.5855 40 48 40C49.4145 40 50.771 40.5619 51.7712 41.5621C52.7714 42.5623 53.3333 43.9188 53.3333 45.3333M42.6667 45.3333H21.3333M53.3333 45.3333H58.6667V32M26.6667 13.3333H45.3333C52.696 13.3333 58.6667 21.6907 58.6667 32M58.6667 32H46.6667L42.6667 13.3333M25.3333 26.6667H45.3333M32 13.3333V26.6667M13.3333 24V53.3333M8 10.6667C8 9.95942 8.28095 9.28115 8.78105 8.78105C9.28115 8.28095 9.95942 8 10.6667 8H16C16.7072 8 17.3855 8.28095 17.8856 8.78105C18.3857 9.28115 18.6667 9.95942 18.6667 10.6667V21.3333C18.6667 22.0406 18.3857 22.7189 17.8856 23.219C17.3855 23.719 16.7072 24 16 24H10.6667C9.95942 24 9.28115 23.719 8.78105 23.219C8.28095 22.7189 8 22.0406 8 21.3333V10.6667Z"
+                                        stroke="#1DD100" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="content">
+                            <h2 class="text-[32px] font-bold text-gray-900 mb-2">80K+</h2>
+                            <p class="text-gray-500">Rental partners</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- why choose us end -->
+
+        <!-- Best offer area start here -->
+        <section class="best-offer-area pt-[100px] pb-[90px]">
+            <div class="container mx-auto pl-4 pr-4">
+                <div class="section-title mb-[45px] text-center">
+                    <h2 class="text-[40px] font-extrabold max-sm:text-[22px]">Best offers for you</h2>
+                </div>
+                <div class="flex gap-4 justify-center">
+                    <!-- First Coupon -->
+                    <div class="flex w-full bg-[#FFBF0F] rounded-3xl relative overflow-y-clip">
+                        <div class="flex flex-col justify-center items-center w-10/12 p-8 text-left">
+                            <h2 class="text-[40px] font-bold text-black mb-1">15% OFF</h2>
+                            <p class="text-xl font-semibold text-gray-700 mb-1.5">on your next purchase</p>
+                            <p class="text-lg text-[#816310]">use by January 2024</p>
+                        </div>
+                        <div class="w-px bg-dashed-line mx-4 my-auto"></div>
+                        <div class="flex flex-col justify-center items-center w-1/2 p-4 text-left">
+                            <div class="font-bold text-black mb-0.5">NEW15</div>
+                            <p class="text-xs text-[#816310]">Coupon Code</p>
+                        </div>
+                    </div>
+                    <!-- Second Coupon -->
+                    <div class="flex w-full bg-[#F78C9C] rounded-3xl relative overflow-y-clip">
+                        <div class="flex flex-col justify-center items-center w-10/12 p-8 text-left">
+                            <h2 class="text-[40px] font-bold text-black mb-1">20% OFF</h2>
+                            <p class="text-xl font-semibold text-black mb-1.5">on your next purchase</p>
+                            <p class="text-lg text-[#7D4A57]">use by January 2024</p>
+                        </div>
+                        <div class="w-px bg-dashed-line mx-4 my-auto"></div>
+                        <div class="flex flex-col justify-center items-center w-1/2 p-4 text-left">
+                            <div class="font-bold text-black mb-0.5">COUPLE20</div>
+                            <p class="text-xs text-[#955765]">Coupon Code</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="offter-btn text-center mt-14">
+                    <a class="btn-primary btn-outline" href="#">See All Offers</a>
+                </div>
+            </div>
+        </section>
+        <!-- Best offer area end here -->
+
+        <!-- ticket sell start here -->
+        <section id="ticketSellSetion" class="ticket-sell-area border-t-[2px] bg-[#F7F8F8] border-[#1DD100] rounded-3xl pt-[100px] pb-[90px]">
+            <div class="container mx-auto pl-4 pr-4">
+                <div class="section-title mb-[45px] text-center max-w-[736px] mx-auto">
+                    <h2 class="text-[40px] font-extrabold mb-5 max-sm:text-[22px]">P.H Paribahan</h2>
+                    <p>Yes, you can run unit tests and view the results directly within the app. The integrated testing
+                        features allow for a streamlined . </p>
+                </div>
+                <div class="route-box flex gap-5 bg-white p-6 rounded-3xl relative overflow-y-clip">
+                    <div class="w-full text-left">
+                        <div class="route-trip flex gap-3 justify-between items-center mb-[30px]">
+                            <div class="route-bus flex items-center gap-3">
+                                <div class="icon">
+                                    <svg width="73" height="52" viewBox="0 0 73 52" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.85714 43.1429C8.85714 44.9615 9.57959 46.7056 10.8656 47.9916C12.1515 49.2776 13.8957 50 15.7143 50C17.5329 50 19.2771 49.2776 20.563 47.9916C21.849 46.7056 22.5714 44.9615 22.5714 43.1429M8.85714 43.1429C8.85714 41.3242 9.57959 39.5801 10.8656 38.2941C12.1515 37.0082 13.8957 36.2857 15.7143 36.2857C17.5329 36.2857 19.2771 37.0082 20.563 38.2941C21.849 39.5801 22.5714 41.3242 22.5714 43.1429M8.85714 43.1429H2V5.42857C2 4.51926 2.36122 3.64719 3.00421 3.00421C3.64719 2.36122 4.51926 2 5.42857 2H53.4286C57.9751 2 62.3355 4.52856 65.5504 9.02944C68.7653 13.5303 70.5714 19.6348 70.5714 26M22.5714 43.1429H50M50 43.1429C50 44.9615 50.7224 46.7056 52.0084 47.9916C53.2944 49.2776 55.0385 50 56.8571 50C58.6758 50 60.4199 49.2776 61.7059 47.9916C62.9918 46.7056 63.7143 44.9615 63.7143 43.1429M50 43.1429C50 41.3242 50.7224 39.5801 52.0084 38.2941C53.2944 37.0082 55.0385 36.2857 56.8571 36.2857C58.6758 36.2857 60.4199 37.0082 61.7059 38.2941C62.9918 39.5801 63.7143 41.3242 63.7143 43.1429M63.7143 43.1429H70.5714V26M70.5714 26H55.1429L50 2M2 19.1429H53.4286M19.1429 2V19.1429M36.2857 2V19.1429"
+                                            stroke="#030712" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div class="content">
+                                    <h3 class="text-[32px] font-bold">Greenline Paribahan</h3>
+                                    <p>Coach-009-WEB ! AC_Business</p>
+                                </div>
+                            </div>
+                            <div class="seat">
+                                <button class="btn-primary btn-opacity">
+                                    <span>
+                                        <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.83333 13.6427C6.45217 13.6427 7.04566 13.8885 7.48325 14.3261C7.92083 14.7637 8.16667 15.3572 8.16667 15.976V18.3093H19.8333V15.976C19.8333 15.3572 20.0792 14.7637 20.5168 14.3261C20.9543 13.8885 21.5478 13.6427 22.1667 13.6427M5.83333 13.6427C5.21449 13.6427 4.621 13.8885 4.18342 14.3261C3.74583 14.7637 3.5 15.3572 3.5 15.976V20.6427C3.5 21.2615 3.74583 21.855 4.18342 22.2926C4.621 22.7302 5.21449 22.976 5.83333 22.976H22.1667C22.7855 22.976 23.379 22.7302 23.8166 22.2926C24.2542 21.855 24.5 21.2615 24.5 20.6427V15.976C24.5 15.3572 24.2542 14.7637 23.8166 14.3261C23.379 13.8885 22.7855 13.6427 22.1667 13.6427M5.83333 13.6427V7.80933C5.83333 6.88107 6.20208 5.99083 6.85846 5.33445C7.51484 4.67808 8.40508 4.30933 9.33333 4.30933H18.6667C19.5949 4.30933 20.4852 4.67808 21.1415 5.33445C21.7979 5.99083 22.1667 6.88107 22.1667 7.80933V13.6427M7 22.976V25.3093M21 22.976V25.3093" stroke="#1DD100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span> 
+                                    <span id="seats-left">40</span> Seats left
+                                </button>
+                            </div>
+                        </div>
+                        <div class="inner bg-[#F7F8F8] rounded-3xl py-8 px-8">
+                            <div class="route-info">
+                                <ul>
+                                    <li
+                                        class="flex justify-between items-center pb-6 mb-6 border-b-2 border-dashed border-[rgba(3, 7, 18, 0.20)]">
+                                        <span class="text-lg font-semibold text-[#65676E]">Route</span>
+                                        <span class="text-lg font-semibold text-[#030712]">Dhaka - Sylhet</span>
+                                    </li>
+                                    <li
+                                        class="flex justify-between items-center pb-6 mb-6 border-b-2 border-dashed border-[rgba(3, 7, 18, 0.20)]">
+                                        <span class="text-lg font-semibold text-[#65676E]">Departure Time</span>
+                                        <span class="text-lg font-semibold text-[#030712]">9:00 PM</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="route-buttons flex gap-2">
+                                <button class="px-4 py-3 bg-[#EBECED] rounded-xl">Boarding Point - Laxmipur</button>
+                                <button class="px-4 py-3 bg-[#EBECED] rounded-xl">Dropping Point - Bogura</button>
+                                <button class="px-4 py-3 bg-[#EBECED] rounded-xl">Est. Time - 11 Hour</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line ml-5">
+                        <div class="w-px bg-dashed-line-2 mx-4 my-auto text-left"></div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center p-4 text-center flex-none">
+                        <div class="icon mb-1">
+                            <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M34 7.48936C37.0404 9.24473 39.5652 11.7695 41.3205 14.8099C43.0759 17.8503 44 21.2992 44 24.81C44 28.3207 43.0758 31.7696 41.3204 34.81C39.565 37.8504 37.0402 40.3752 33.9998 42.1305C30.9594 43.8858 27.5104 44.8099 23.9997 44.8099C20.4889 44.8098 17.04 43.8856 13.9997 42.1302C10.9593 40.3747 8.43458 37.8499 6.67927 34.8095C4.92396 31.769 3.99991 28.3201 4 24.8094L4.01 24.1614C4.12201 20.7073 5.1271 17.3413 6.92728 14.3913C8.72746 11.4414 11.2613 9.00826 14.2818 7.32912C17.3023 5.64998 20.7063 4.78215 24.162 4.81023C27.6177 4.83831 31.0072 5.76135 34 7.48936ZM21.578 16.2574C21.1038 15.3084 20.272 14.5868 19.2657 14.2511C18.2594 13.9154 17.1609 13.9932 16.212 14.4674L15.106 15.0214C14.6485 15.268 14.3051 15.6831 14.1484 16.1787C13.9917 16.6742 14.034 17.2113 14.2664 17.6761C14.4989 18.141 14.9031 18.4971 15.3936 18.6691C15.884 18.841 16.4222 18.8153 16.894 18.5974L18 18.0454L17.998 20.8094H16C15.5101 20.8094 15.0373 20.9893 14.6713 21.3148C14.3052 21.6403 14.0713 22.0889 14.014 22.5754L14 22.8094C14 23.3398 14.2107 23.8485 14.5858 24.2236C14.9609 24.5986 15.4696 24.8094 16 24.8094H17.998L18 30.8094C17.9999 32.3398 18.5846 33.8124 19.6346 34.9259C20.6845 36.0394 22.1202 36.7096 23.648 36.7994L24 36.8094H25C26.8565 36.8094 28.637 36.0719 29.9497 34.7591C31.2625 33.4464 32 31.6659 32 29.8094V28.8094C32 28.2789 31.7893 27.7702 31.4142 27.3951C31.0391 27.0201 30.5304 26.8094 30 26.8094H28C27.4696 26.8094 26.9609 27.0201 26.5858 27.3951C26.2107 27.7702 26 28.2789 26 28.8094L26.014 29.0434C26.0666 29.4898 26.2682 29.9055 26.586 30.2233C26.9039 30.5412 27.3196 30.7427 27.766 30.7954L27.83 30.7994L27.79 30.9134C27.5686 31.4727 27.1842 31.9525 26.6867 32.2906C26.1892 32.6287 25.6015 32.8095 25 32.8094H24C23.4696 32.8094 22.9609 32.5986 22.5858 32.2236C22.2107 31.8485 22 31.3398 22 30.8094L21.998 24.8094H30C30.4899 24.8093 30.9627 24.6294 31.3287 24.3039C31.6948 23.9784 31.9287 23.5299 31.986 23.0434L32 22.8094C32 22.2789 31.7893 21.7702 31.4142 21.3951C31.0391 21.0201 30.5304 20.8094 30 20.8094H21.998L22 18.0454C22 17.5493 21.9078 17.0576 21.728 16.5954L21.578 16.2574Z"
+                                    fill="#1DD100" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-black mb-2">550 Taka</h3>
+                        <p class="text-lg text-[#955765]">Per Seat</p>
+                    </div>
+                </div>
+                <div class="flex gap-8 bg-white p-6 rounded-3xl mt-8">
+                    <!-- Left Section: Seat Selection -->
+                    <div class="w-2/3">
+                        <h2 class="text-xl font-semibold pb-3 border-b-2 border-dashed border-[rgba(3, 7, 18, 0.20)]">
+                            Select Your Seat</h2>
+
+                        <!-- Legend for Available and Selected -->
+                        <div
+                            class="flex items-center justify-between space-x-4 text-sm pt-4 pb-4 mb-6 border-b-2 border-dashed border-[rgba(3, 7, 18, 0.20)]">
+                            <div class="flex items-center space-x-1 text-gray-500">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.83333 12.8333C6.45217 12.8333 7.04566 13.0792 7.48325 13.5168C7.92083 13.9543 8.16667 14.5478 8.16667 15.1667V17.5H19.8333V15.1667C19.8333 14.5478 20.0792 13.9543 20.5168 13.5168C20.9543 13.0792 21.5478 12.8333 22.1667 12.8333M5.83333 12.8333C5.21449 12.8333 4.621 13.0792 4.18342 13.5168C3.74583 13.9543 3.5 14.5478 3.5 15.1667V19.8333C3.5 20.4522 3.74583 21.0457 4.18342 21.4832C4.621 21.9208 5.21449 22.1667 5.83333 22.1667H22.1667C22.7855 22.1667 23.379 21.9208 23.8166 21.4832C24.2542 21.0457 24.5 20.4522 24.5 19.8333V15.1667C24.5 14.5478 24.2542 13.9543 23.8166 13.5168C23.379 13.0792 22.7855 12.8333 22.1667 12.8333M5.83333 12.8333V7C5.83333 6.07174 6.20208 5.1815 6.85846 4.52513C7.51484 3.86875 8.40508 3.5 9.33333 3.5H18.6667C19.5949 3.5 20.4852 3.86875 21.1415 4.52513C21.7979 5.1815 22.1667 6.07174 22.1667 7V12.8333M7 22.1667V24.5M21 22.1667V24.5"
+                                        stroke="#030712" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span>Available</span>
+                            </div>
+                            <div class="flex items-center space-x-1 text-green-600">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.83333 12.8333C6.45217 12.8333 7.04566 13.0792 7.48325 13.5168C7.92083 13.9543 8.16667 14.5478 8.16667 15.1667V17.5H19.8333V15.1667C19.8333 14.5478 20.0792 13.9543 20.5168 13.5168C20.9543 13.0792 21.5478 12.8333 22.1667 12.8333C22.7855 12.8333 23.379 13.0792 23.8166 13.5168C24.2542 13.9543 24.5 14.5478 24.5 15.1667V19.8333C24.5 20.4522 24.2542 21.0457 23.8166 21.4832C23.379 21.9208 22.7855 22.1667 22.1667 22.1667H5.83333C5.21449 22.1667 4.621 21.9208 4.18342 21.4832C3.74583 21.0457 3.5 20.4522 3.5 19.8333V15.1667C3.5 14.5478 3.74583 13.9543 4.18342 13.5168C4.621 13.0792 5.21449 12.8333 5.83333 12.8333Z"
+                                        fill="#1DD100" />
+                                    <path
+                                        d="M5.83333 12.8333V7C5.83333 6.07174 6.20208 5.1815 6.85846 4.52513C7.51484 3.86875 8.40508 3.5 9.33333 3.5H18.6667C19.5949 3.5 20.4852 3.86875 21.1415 4.52513C21.7979 5.1815 22.1667 6.07174 22.1667 7V12.8333"
+                                        fill="#1DD100" />
+                                    <path d="M7 22.1667V24.5V22.1667Z" fill="#1DD100" />
+                                    <path d="M21 22.1667V24.5V22.1667Z" fill="#1DD100" />
+                                    <path
+                                        d="M5.83333 12.8333C6.45217 12.8333 7.04566 13.0792 7.48325 13.5168C7.92083 13.9543 8.16667 14.5478 8.16667 15.1667V17.5H19.8333V15.1667C19.8333 14.5478 20.0792 13.9543 20.5168 13.5168C20.9543 13.0792 21.5478 12.8333 22.1667 12.8333M5.83333 12.8333C5.21449 12.8333 4.621 13.0792 4.18342 13.5168C3.74583 13.9543 3.5 14.5478 3.5 15.1667V19.8333C3.5 20.4522 3.74583 21.0457 4.18342 21.4832C4.621 21.9208 5.21449 22.1667 5.83333 22.1667H22.1667C22.7855 22.1667 23.379 21.9208 23.8166 21.4832C24.2542 21.0457 24.5 20.4522 24.5 19.8333V15.1667C24.5 14.5478 24.2542 13.9543 23.8166 13.5168C23.379 13.0792 22.7855 12.8333 22.1667 12.8333M5.83333 12.8333V7C5.83333 6.07174 6.20208 5.1815 6.85846 4.52513C7.51484 3.86875 8.40508 3.5 9.33333 3.5H18.6667C19.5949 3.5 20.4852 3.86875 21.1415 4.52513C21.7979 5.1815 22.1667 6.07174 22.1667 7V12.8333M7 22.1667V24.5M21 22.1667V24.5"
+                                        stroke="#1DD100" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span>Selected</span>
+                            </div>
+                        </div>
+                        <div class="reset-wheel flex justify-end">
+                            <button class="flex items-center justify-center w-28 h-14 rounded-xl bg-[#E6E6E7]">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16 28C14.4241 28 12.8637 27.6896 11.4078 27.0866C9.95189 26.4835 8.62902 25.5996 7.51472 24.4853C6.40042 23.371 5.5165 22.0481 4.91345 20.5922C4.31039 19.1363 4 17.5759 4 16C4 14.4241 4.31039 12.8637 4.91345 11.4078C5.5165 9.95189 6.40042 8.62902 7.51472 7.51472C8.62902 6.40042 9.95189 5.5165 11.4078 4.91345C12.8637 4.31039 14.4241 4 16 4C17.5759 4 19.1363 4.31039 20.5922 4.91345C22.0481 5.5165 23.371 6.40042 24.4853 7.51472C25.5996 8.62902 26.4835 9.95189 27.0866 11.4078C27.6896 12.8637 28 14.4241 28 16C28 17.5759 27.6896 19.1363 27.0866 20.5922C26.4835 22.0481 25.5996 23.371 24.4853 24.4853C23.371 25.5996 22.0481 26.4835 20.5922 27.0866C19.1363 27.6896 17.5759 28 16 28ZM16 28V18.6667M13.3333 16C13.3333 16.7072 13.6143 17.3855 14.1144 17.8856C14.6145 18.3857 15.2928 18.6667 16 18.6667M13.3333 16C13.3333 15.2928 13.6143 14.6145 14.1144 14.1144C14.6145 13.6143 15.2928 13.3333 16 13.3333C16.7072 13.3333 17.3855 13.6143 17.8856 14.1144C18.3857 14.6145 18.6667 15.2928 18.6667 16M13.3333 16L4.33333 13.3333M16 18.6667C16.7072 18.6667 17.3855 18.3857 17.8856 17.8856C18.3857 17.3855 18.6667 16.7072 18.6667 16M18.6667 16L27.6667 13.3333"
+                                        stroke="#030712" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                        <!-- Seat Grid -->
+                        <div class="flex flex-col gap-6 mt-4">
+                            <div class="flex gap-4">
+                                <div class="w-12 flex items-center justify-center text-gray-500 font-medium">A</div>
+                                <div class="flex justify-between w-full">
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">A1</button>
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">A2</button>
+                                    </div>
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">A3</button>
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">A4</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-12 flex items-center justify-center text-gray-500 font-medium">B</div>
+                                <div class="flex justify-between w-full">
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">B1</button>
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">B2</button>
+                                    </div>
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">B3</button>
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">B4</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-12 flex items-center justify-center text-gray-500 font-medium">C</div>
+                                <div class="flex justify-between w-full">
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">C1</button>
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">C2</button>
+                                    </div>
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">C3</button>
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">C4</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-12 flex items-center justify-center text-gray-500 font-medium">D</div>
+                                <div class="flex justify-between w-full">
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">D1</button>
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">D2</button>
+                                    </div>
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">D3</button>
+                                        <button class="w-[110px] h-14 rounded-lg bg-[#F7F8F8] text-gray-600 seat-btn">D4</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-12 flex items-center justify-center text-gray-500 font-medium">E</div>
+                                <div class="flex justify-between w-full">
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">E1</button>
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">E2</button>
+                                    </div>
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">E3</button>
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">E4</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-12 flex items-center justify-center text-gray-500 font-medium">F</div>
+                                <div class="flex justify-between w-full">
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">F1</button>
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">F2</button>
+                                    </div>
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">F3</button>
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">F4</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-12 flex items-center justify-center text-gray-500 font-medium">G</div>
+                                <div class="flex justify-between w-full">
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">G1</button>
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">G2</button>
+                                    </div>
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">G3</button>
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">G4</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-12 flex items-center justify-center text-gray-500 font-medium">H</div>
+                                <div class="flex justify-between w-full">
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">H1</button>
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">H2</button>
+                                    </div>
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">H3</button>
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">H4</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-12 flex items-center justify-center text-gray-500 font-medium">I</div>
+                                <div class="flex justify-between w-full">
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">I1</button>
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">I2</button>
+                                    </div>
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">I3</button>
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">I4</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-12 flex items-center justify-center text-gray-500 font-medium">J</div>
+                                <div class="flex justify-between w-full">
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">J1</button>
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">J2</button>
+                                    </div>
+                                    <div class="clumn flex gap-8">
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">J3</button>
+                                        <button class="w-[110px] h-14 rounded-lg seat-btn">J4</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- More rows as needed -->
+                        </div>
+                    </div>
+                    <div class="devider">
+                        <span class="h-full w-[1px] block border border-dashed border-[rgba(3, 7, 18, 0.30)]"></span>
+                    </div>
+                    <!-- Right Section: Booking Summary -->
+                    <div class="w-1/3">
+                        <div class="rounded-lg p-6 bg bg-[#F7F8F8] 100 mb-6">
+                            <h2 class="text-xl font-semibold mb-4">Select Your Seat</h2>
+                            <!-- Table Headers -->
+                            <div class="flex justify-between gap-2 text-gray-500 text-sm font-medium border-b pb-2 mb-2">
+                                <span>Seat</span>
+                                <span>Class</span>
+                                <span>Price</span>
+                            </div>
+                            <!-- Selected Seats and Prices -->
+                            <div class="border-b pb-4 mb-4" id="selected-seats"></div>
+                            <!-- Total Price -->
+                            <div class="flex justify-between text-gray-700 font-semibold mb-2">
+                                <span>Total Price</span><span id="total-price">0</span>
+                            </div>
+                            <!-- Coupon Input -->
+                            <div class="flex items-center space-x-2 mb-4">
+                                <input type="text" placeholder="Have any coupon?" class="mt-1 w-full px-5 py-3 border rounded-lg focus:outline-none focus:ring focus:ring-green-300">
+                                <button id="applyCouponBtn" class="bg-[#1DD100] text-white px-4 py-3 rounded-md text-sm font-semibold">Apply</button>
+                            </div>
+                            <!-- Grand Total -->
+                            <div class="flex justify-between text-gray-700 font-semibold">
+                                <span>Grand Total</span><span id="grand-total">BDT 0</span>
+                            </div>
+                        </div>
+                        <div class="">
+                            <!-- Passenger Info with Labels -->
+                            <div class="space-y-4 mb-4">
+                                <label class="block text-sm font-medium text-gray-700">
+                                    Passenger Name*
+                                    <input type="text" placeholder="Enter your name"
+                                        class="mt-1 w-full px-5 py-4 border rounded-lg focus:outline-none focus:ring focus:ring-green-300">
+                                </label>
+                                <label class="block text-sm font-medium text-gray-700">
+                                    Phone Number*
+                                    <input type="text" placeholder="Enter your phone number"
+                                        class="mt-1 w-full px-5 py-4 border rounded-lg focus:outline-none focus:ring focus:ring-green-300">
+                                </label>
+                                <label class="block text-sm font-medium text-gray-700">
+                                    Email ID
+                                    <input type="email" placeholder="Enter your email id"
+                                        class="mt-1 w-full px-5 py-4 border rounded-lg focus:outline-none focus:ring focus:ring-green-300">
+                                </label>
+                            </div>
+                            <!-- Next Button -->
+                            <a href="sucesss.html" class="w-full flex items-center justify-center bg-[#1DD100] text-white font-semibold py-4 rounded-md">Next</a>
+                            <!-- Terms & Cancellation Links -->
+                            <div class="flex justify-between text-sm text-gray-500 mt-4 px-4">
+                                <a href="#" class="underline">Terms and Conditions</a>
+                                <a href="#" class="underline">Cancellation Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ticket sell end here -->
+
+    </main>
+
+    <!-- Footer area start here -->
+    <footer class="footer bg-[#030712] py-[90px]">
+        <div class="container mx-auto pl-4 pr-4">
+            <div class="footer-top items-center flex justify-between">
+                <div class="footer-text max-w-[374px]">
+                    <div class="footer-logo mb-4">
+                        <a href="#"><img src="assets/images/logo/logo-white.svg" alt="logo-white"></a>
+                    </div>
+                    <p class="text-[18px] text-white/60">P-Ticket is a digital platform to make your daily commuting better.</p>
+                </div>
+                <div class="app-content">
+                    <h5 class="text-white text-xl mb-5">Download our app</h5>
+                    <a href="#"><img src="assets/images/footer/app.png" alt="app"></a>
+                </div>
+            </div>
+            <div class="footer-top pt-8 mt-16 flex justify-between border-dashed border-t border-[rgba(255, 255, 255, 0.30)]">
+                <div class="copy-right">
+                    <p class="text-[16px] text-white/60 ">@all rights reserved, P-Ticket services limited.2024</p>
+                </div>
+                <ul class="list-none flex gap-8">
+                    <li class="text-[16px] text-white/60"><a href="#">Terms & condition</a></li>
+                    <li class="text-[16px] text-white/60"><a href="#">Return & refund policy</a></li>
+                    <li class="text-[16px] text-white/60"><a href="#">Privacy policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer area end here -->
+
+</body>
+
+<script src="assets/js/script.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const seatBtns = document.querySelectorAll(".seat-btn");
+        const selectedSeatsContainer = document.getElementById("selected-seats");
+        const totalPriceEl = document.getElementById("total-price");
+        const grandTotalEl = document.getElementById("grand-total");
+        const seatsLeftEl = document.getElementById("seats-left");
+        const couponInput = document.querySelector("input[placeholder='Have any coupon?']");
+        const applyCouponBtn = document.getElementById("applyCouponBtn");
+
+        let selectedSeats = [];
+        let seatsLeft = 40;
+        const maxSeats = 4;
+        const seatPrice = 550;
+        let discount = 0;
+
+        const validCoupons = {
+            "NEW15": 0.15,  // 15% discount
+            "COUPLE20": 0.2 // 20% discount
+        };
+
+        // Function to render selected seats
+        function renderSelectedSeats() {
+            selectedSeatsContainer.innerHTML = "";
+            selectedSeats.forEach((seat) => {
+                selectedSeatsContainer.innerHTML += `
+                    <div class="flex justify-between mb-1 gap-2 text-sm text-gray-700">
+                        <span>${seat}</span>
+                        <span>Economy</span>
+                        <span>${seatPrice}</span>
+                    </div>`;
+            });
+        }
+
+        // Function to update prices
+        function updateTotalPrice() {
+            const totalPrice = selectedSeats.length * seatPrice;
+            totalPriceEl.textContent = totalPrice;
+            updateGrandTotal(totalPrice);
+        }
+
+        function updateGrandTotal(totalPrice) {
+            const discountedPrice = totalPrice - totalPrice * discount;
+            grandTotalEl.textContent = `BDT ${discountedPrice.toFixed(0)}`;
+        }
+
+        // Update seat count
+        function updateSeatCount() {
+            seatsLeftEl.textContent = seatsLeft;
+        }
+
+        // Seat button click event
+        seatBtns.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                const seatName = btn.textContent.trim();
+
+                if (btn.classList.contains("active-seat")) {
+                    btn.classList.remove("bg-green-400", "text-white", "active-seat");
+                    selectedSeats = selectedSeats.filter((seat) => seat !== seatName);
+                    seatsLeft++;
+                } else {
+                    if (selectedSeats.length >= maxSeats) {
+                        alert("You can select up to 4 seats only!");
+                        return;
+                    }
+                    btn.classList.add("bg-green-400", "text-white", "active-seat");
+                    selectedSeats.push(seatName);
+                    seatsLeft--;
+                }
+
+                renderSelectedSeats();
+                updateTotalPrice();
+                updateSeatCount();
+            });
+        });
+
+        // Coupon Apply event
+        applyCouponBtn.addEventListener("click", () => {
+            const enteredCoupon = couponInput.value.trim();
+            if (validCoupons.hasOwnProperty(enteredCoupon)) {
+                discount = validCoupons[enteredCoupon];
+                alert(`Coupon applied! You got ${(discount * 100)}% discount.`);
+            } else {
+                alert("Invalid coupon code!");
+                discount = 0;
+            }
+            updateTotalPrice();
+        });
+    });
+</script>
+
+</html>

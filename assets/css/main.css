@@ -1,0 +1,267 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Happy New Year HTML Template
+    Version: 1.0
+    Developer: Md Sagor Hossen
+
+-----------------------------------------------------------------------------------
+
+/*----------------------------------------*/
+/*  1.1 Theme Default
+/*----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --ph-ff-body: "Inter", sans-serif;
+    --ph-ff-heading: "Raleway", sans-serif;
+    --ph-white: #FFFFFF;
+    --ph-black: #000000;
+    --ph-body: #131318;
+    --ph-heading: #131318;
+    --ph-placeholder: #555555;
+    --ph-selection: #262626;
+    --ph-theme-primary: #089EFF;
+    --ph-theme-secondary: #FB5141;
+    --ph-border-primary: rgba(255, 255, 255, 0.079);
+    --ph-fw-normal: normal;
+    --ph-fw-thin: 100;
+    --ph-fw-elight: 200;
+    --ph-fw-light: 300;
+    --ph-fw-regular: 400;
+    --ph-fw-medium: 500;
+    --ph-fw-sbold: 600;
+    --ph-fw-bold: 700;
+    --ph-fw-ebold: 800;
+    --ph-fw-black: 900;
+    --ph-fs-body: 16px;
+    --ph-fs-p: 16px;
+    --ph-fs-h1: 64px;
+    --ph-fs-h2: 40px;
+    --ph-fs-h3: 24px;
+    --ph-fs-h4: 20px;
+    --ph-fs-h5: 18px;
+    --ph-fs-h6: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: var(--ph-ff-body);
+    font-size: var(--ph-fs-body);
+    font-weight: normal;
+    color: var(--ph-body);
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #070211;
+    margin-top: 0px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: var(--ph-fs-h1);
+}
+
+h2 {
+    font-size: var(--ph-fs-h2);
+}
+
+h3 {
+    font-size: var(--ph-fs-h3);
+}
+
+h4 {
+    font-size: var(--ph-fs-h4);
+}
+
+h5 {
+    font-size: var(--ph-fs-h5);
+}
+
+h6 {
+    font-size: var(--ph-fs-h6);
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.w-img {
+    img {
+        width: 100%;
+    }
+}
+
+/* Common style */
+.container {
+    max-width: 1170px !important;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media screen and (max-width: 667px) {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+}
+
+.section-space {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-space-top {
+    padding-top: 100px;
+}
+
+.section-space-bottom {
+    padding-bottom: 100px;
+}
+
+/* Button style */
+
+.btn-primary {
+    display: inline-flex;
+    height: 60px;
+    padding: 0 30px;
+    align-items: center;
+    gap: 10px;
+    color: #030712;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #1dd100;
+}
+.btn-primary.btn-outline {
+    border: 1px solid #1DD100;
+    background-color: transparent;
+    color: #1DD100;
+}
+.btn.btn-active.btn-primary {
+    border-radius: 12px;
+    border: 1px solid rgba(29, 209, 0, 0.40);
+    background: rgba(29, 209, 0, 0.10);
+    color: #1DD100;
+}
+.btn-primary.btn-opacity {
+    border-radius: 12px;
+    background: rgba(29, 209, 0, 0.15);
+}
+.btn-primary span {
+    position: relative;
+    top: 4px;
+}
+
+/* Footer style */
+.input-field input {
+    border: 1px solid #ddd;
+    padding: 5px 20px;
+    background: #fff;
+    height: 50px;
+    width: 100%;
+}
+
+.input-field textarea {
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+/* color */
+.text-primary {
+    color: #1DD100 !important;
+}
+.bg-dashed-line {
+    border-right: 1px dashed #ffffff;
+    height: 100%;
+    position: relative;
+}
+.bg-dashed-line::after {
+    position: absolute;
+    content: '';
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+.bg-dashed-line::before {
+    position: absolute;
+    content: '';
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+.bg-dashed-line-2 {
+    border-right: 1px dashed #1DD100;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.bg-dashed-line-2::after {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 80px;
+    background-color: #F7F8F8;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: -1;
+}
+.bg-dashed-line-2::before {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 80px;
+    background-color: #F7F8F8;
+    bottom: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.seat-btn {
+    background-color: #F7F8F8;
+    color: #4A5568; /* text-gray-600 */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.seat-btn.active-seat {
+    background-color: #1DD100; /* Active green color */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);/
+}
